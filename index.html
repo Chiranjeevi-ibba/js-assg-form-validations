@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form action="./submit.html" onsubmit="return validation()" class="my-form">
+        <h3 class="sign-up-text">Sign Up Form</h3>
+        <div>
+            <input type="text" class="fname input-fields" id="fname" placeholder="First Name" onblur="validate1()" >
+            <p class="error fname-error" id="fname-error"></p>
+        </div>
+        <div>
+            <input type="text" class="lname input-fields" id="lname" placeholder="Last Name" onblur="validate2()" >
+            <p class="error lname-error" id="lname-error" ></p>
+        </div>
+        <div>
+            <input type="password" class="pwd input-fields" id="pwd" placeholder="Password" onblur="validate3()" >
+            <p class="error pwd-error" id="pwd-error"></p>
+        </div>
+        <div>
+            <input type="password" class="cnf-pwd input-fields" id="cnf-pwd" placeholder="Confirm Password" onblur="validate4()" >
+            <p class="error cnf-pwd-error" id="cnf-pwd-error"></p>
+        </div>
+        <div>
+            <input type="email" class="email input-fields" id="email" placeholder="Email" onblur="validate5()" >
+            <p class="error email-error" id="email-error"></p>
+        </div>
+        <div>
+            <input type="text" class="number input-fields" id="number" placeholder="Phone Number" onblur="validate6()" >
+            <p class="error number-error" id="number-error"></p>
+        </div>
+       <div>
+           <button class="sign-up-btn" type="submit">Sign Up</button>
+       </div>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./Resources/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.my-form {
+    padding: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.sign-up-text {
+    align-self: center;
+}
+.input-fields {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #222;
+    width: 75%;
+    font-size: 18px;
+    margin: 26px;
+    margin-bottom: 6px;
+}
+.sign-up-btn {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #185EDE;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 20px;
+}
+.error {
+    margin: 0px;
+    padding-left: 30px;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
